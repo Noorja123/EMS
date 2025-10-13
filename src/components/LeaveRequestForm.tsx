@@ -226,7 +226,7 @@ export const LeaveRequestForm: React.FC = () => {
                     <SelectItem value="Vacation">
                       <div className="flex items-center space-x-2">
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                        <span>Vacation</span>
+                        <span>PL</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Sick">
@@ -238,13 +238,25 @@ export const LeaveRequestForm: React.FC = () => {
                     <SelectItem value="Personal">
                       <div className="flex items-center space-x-2">
                         <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                        <span>Personal</span>
+                        <span>Casual</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Emergency">
                       <div className="flex items-center space-x-2">
                         <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                        <span>Emergency</span>
+                        <span>Maternity</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="Paternity">
+                      <div className="flex items-center space-x-2">
+                        <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                        <span>Paternity</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="leave on compassionate grounds">
+                      <div className="flex items-center space-x-2">
+                        <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                        <span>Leave on Compassionate Grounds</span>
                       </div>
                     </SelectItem>
                   </SelectContent>

@@ -58,8 +58,8 @@
       },
       "scripts": {
   "dev": "vite",
-  "build": "npx vite build",
-  "preview": "vite preview"
+  "build": "vite build",
+  "postinstall": "chmod +x node_modules/.bin/*"
 }
 
 

@@ -1,5 +1,5 @@
 {
-      "name": "Employee_Management_System",
+      "name": "Employee-Management-System",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -58,7 +58,7 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "node --loader tsx ./node_modules/vite/bin/vite.js build"
-            // "build": "vite build"
+            "build": "vite build"
       }
+
 }
